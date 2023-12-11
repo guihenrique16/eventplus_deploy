@@ -1,11 +1,11 @@
 import React, { useContext, useEffect, useState } from "react";
-import MainContent from "../../components/MainContent/MainContent";
-import Title from "../../components/Title/Title";
+import MainContent from "../../Components/MainContent/MainContent";
+import Title from "../../Components/Title/Title";
 import Table from "./TableEvA/TableEvA";
-import Container from "../../components/Container/Container";
-import { Select } from "../../components/FormComponents/FormComponents";
-import Spinner from "../../components/Spinner/Spinner";
-import Modal from "../../components/Modal/Modal";
+import Container from "../../Components/Container/Container";
+import { Select } from "../../Components/FormComponents/FormComponents";
+import Spinner from "../../Components/Spinner/Spinner";
+import Modal from "../../Components/Modal/Modal";
 import api, {
   eventsResource,
   myEventsResource,

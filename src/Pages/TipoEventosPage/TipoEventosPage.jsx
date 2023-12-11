@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./TipoEventosPage.css";
-import Title from "../../components/Title/Title";
-import MainContent from "../../components/MainContent/MainContent";
-import Container from "../../components/Container/Container";
-import ImageIllustrator from "../../components/ImageIllustrator/ImageIllustrator";
+import Title from "../../Components/Title/Title";
+import MainContent from "../../Components/MainContent/MainContent";
+import Container from "../../Components/Container/Container";
+import ImageIllustrator from "../../Components/ImageIllustrator/ImageIllustrator";
 import TableTp from "./TableTp/TableTp";
 import tipoEventoImage from "../../assets/images/tipo-evento.svg";
-import { Input, Button } from "../../components/FormComponents/FormComponents";
+import { Input, Button } from "../../Components/FormComponents/FormComponents";
 import api, { eventsTypeResource } from "../../Services/Service";
-import Notification from "../../components/Notification/Notification";
-import Spinner from "../../components/Spinner/Spinner";
+import Notification from "../../Components/Notification/Notification";
+import Spinner from "../../Components/Spinner/Spinner";
 
 const TipoEventosPage = () => {
   

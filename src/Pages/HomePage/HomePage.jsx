@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import "./HomePage.css";
 
-import Banner from "../../components/Banner/Banner";
-import MainContent from "../../components/MainContent/MainContent";
-import VisionSection from "../../components/VisionSection/VisionSection";
-import ContactSection from "../../components/ContactSection/ContactSection";
-import Title from "../../components/Title/Title";
-import NextEvent from "../../components/NextEvent/NextEvent";
-import Container from "../../components/Container/Container";
+import Banner from "../../Components/Banner/Banner";
+import MainContent from "../../Components/MainContent/MainContent";
+import VisionSection from "../../Components/VisionSection/VisionSection";
+import ContactSection from "../../Components/ContactSection/ContactSection";
+import Title from "../../Components/Title/Title";
+import NextEvent from "../../Components/NextEvent/NextEvent";
+import Container from "../../Components/Container/Container";
 import api from "../../Services/Service";
-import Notification from "../../components/Notification/Notification";
+import Notification from "../../Components/Notification/Notification";
 import { nextEventResource } from "../../Services/Service";
 
 

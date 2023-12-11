@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from "react";
-import Container from "../../components/Container/Container";
-import Title from "../../components/Title/Title";
-import MainContent from "../../components/MainContent/MainContent";
-import ImageIllustrator from "../../components/ImageIllustrator/ImageIllustrator";
+import Container from "../../Components/Container/Container";
+import Title from "../../Components/Title/Title";
+import MainContent from "../../Components/MainContent/MainContent";
+import ImageIllustrator from "../../Components/ImageIllustrator/ImageIllustrator";
 import {
   Input,
   Button,
   Select,
-} from "../../components/FormComponents/FormComponents";
+} from "../../Components/FormComponents/FormComponents";
 import Table from "./TableEv/TableEv";
 import api, {
   eventsResource,
   eventsTypeResource,
   institutionResource,
 } from "../../Services/Service";
-import Spinner from "../../components/Spinner/Spinner";
-import Notification from "../../components/Notification/Notification";
+import Spinner from "../../Components/Spinner/Spinner";
+import Notification from "../../Components/Notification/Notification";
 import { truncateDateFromDb } from "../../Utils/stringFunctions";
 import eventoImage from "../../assets/images/tipo-evento.svg";
 import "./EventosPage.css";

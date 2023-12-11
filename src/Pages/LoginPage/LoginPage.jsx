@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
-import ImageIllustrator from "../../components/ImageIllustrator/ImageIllustrator";
+import ImageIllustrator from "../../Components/ImageIllustrator/ImageIllustrator";
 import logo from "../../assets/images/logo-pink.svg";
 import { Input, Button } from "../../components/FormComponents/FormComponents";
 import loginImage from "../../assets/images/login.svg";
@@ -10,7 +10,7 @@ import "./LoginPage.css";
 import { UserContext, userDecodeToken } from "../../context/AuthContext";
 
 const LoginPage = () => {
-  const [user, setUser] = useState({ email: "edu@admin.com", senha: "123456" });
+  const [user, setUser] = useState({});
   //importa os dados globais do usuário
   const { userData, setUserData } = useContext(UserContext);
   const navigate = useNavigate();
