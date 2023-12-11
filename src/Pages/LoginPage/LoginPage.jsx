@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import ImageIllustrator from "../../Components/ImageIllustrator/ImageIllustrator";
 import logo from "../../assets/images/logo-pink.svg";
-import { Input, Button } from "../../components/FormComponents/FormComponents";
+import { Input, Button } from "../../Components/FormComponents/FormComponents";
 import loginImage from "../../assets/images/login.svg";
 import api, { loginResource } from "../../Services/Service";
 import { useNavigate } from "react-router-dom";
