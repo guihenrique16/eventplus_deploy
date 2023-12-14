@@ -3,7 +3,7 @@ import ImageIllustrator from "../../Components/ImageIllustrator/ImageIllustrator
 import logo from "../../assets/images/logo-pink.svg";
 import { Input, Button } from "../../Components/FormComponents/FormComponents";
 import loginImage from "../../assets/images/login.svg";
-import api, { loginResource } from "../../Services/Service";
+import api, { LoginResource } from "../../Services/Service";
 import { useNavigate } from "react-router-dom";
 
 import "./LoginPage.css";
@@ -30,7 +30,7 @@ const LoginPage = () => {
       
       
       try {
-        const promise = await api.post(loginResource, {
+        const promise = await api.post(LoginResource, {
           email: user.email,
           senha: user.senha,
         });

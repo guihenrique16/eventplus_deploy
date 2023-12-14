@@ -12,7 +12,7 @@ import Table from "./TableEv/TableEv";
 import api, {
   eventsResource,
   eventsTypeResource,
-  institutionResource,
+  IstituicaoResource,
 } from "../../Services/Service";
 import Spinner from "../../Components/Spinner/Spinner";
 import Notification from "../../Components/Notification/Notification";
@@ -47,7 +47,7 @@ export default function EventosPaage(props) {
       try {
         const promise = await api.get(eventsResource);
         const promiseTipoEventos = await api.get(eventsTypeResource);
-        const promiseInstituicao = await api.get(institutionResource);
+        const promiseInstituicao = await api.get(IstituicaoResource);
         //só tem uma instituição neste projeto mas já fica preparado pra adicionar mais!
         setEventos(promise.data);
 
